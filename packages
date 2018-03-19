@@ -9,7 +9,7 @@ py27-pip
 py27-docutils
 py27-ap24-mod_wsgi
 py27-mysql56db
-py27-SQLAlchemy
+py27-SQLAlchemy-i18n
 py27-dateutil
 py27-ipaddr
 py27-ipaddress
