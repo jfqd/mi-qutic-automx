@@ -39,6 +39,10 @@ curl -L -O https://download.qutic.com/automx/automx-v${AUTOMX_VERSION}.tar.gz
 tar xf automx-v${AUTOMX_VERSION}.tar.gz
 rm automx-v${AUTOMX_VERSION}.tar.gz
 
+sed -i \
+    's#/usr/local/etc/automx.conf#/opt/local/etc/automx.conf#' \
+    automx-${AUTOMX_VERSION}/src/automx/config.py
+
 mkdir -p /opt/local/lib/automx
 cp automx-${AUTOMX_VERSION}/src/automx_wsgi.py /opt/local/lib/automx/
 cp automx-${AUTOMX_VERSION}/src/automx-test /opt/local/bin/automx-test
