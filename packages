@@ -4,6 +4,7 @@ pkg-config
 pcre
 memcached
 dateutils
+gcc49
 # python
 py34-pip
 py34-docutils
