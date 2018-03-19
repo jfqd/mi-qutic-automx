@@ -11,10 +11,7 @@ py34-ap24-mod_wsgi
 py34-mysql-connector
 py34-SQLAlchemy-i18n
 py34-dateutil
-py34-ipaddr
-py34-ipaddress
 py34-lxml
-py34-m2crypto
 py34-memcached
 py34-dns
 # httpd
