@@ -35,7 +35,7 @@ for CONF_RM in ${HTTPD_CONF_RM}; do
 done
 
 echo "* Setup automx"
-curl -L -O https://download.qutic.com/automx/automx-${AUTOMX_VERSION}.tar.gz
+curl -L -O https://download.qutic.com/src/automx/automx-${AUTOMX_VERSION}.tar.gz
 gtar xf automx-${AUTOMX_VERSION}.tar.gz
 rm automx-${AUTOMX_VERSION}.tar.gz
 
