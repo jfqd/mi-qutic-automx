@@ -36,7 +36,7 @@ done
 
 echo "* Setup automx"
 curl -L -O https://download.qutic.com/automx/automx-v${AUTOMX_VERSION}.tar.gz
-tar xf automx-v${AUTOMX_VERSION}.tar.gz
+gtar xf automx-v${AUTOMX_VERSION}.tar.gz
 rm automx-v${AUTOMX_VERSION}.tar.gz
 
 sed -i \
