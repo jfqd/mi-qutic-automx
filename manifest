@@ -1,0 +1,8 @@
+name="qutic-automx"
+organization="qutic development"
+brand="automx instance"
+version="17.4.0"
+description="qutic automx image"
+homepage="https://github.com/jfqd/mi-qutic-automx"
+users="root admin"
+base="31ea7dee-0a8d-11e8-9d33-eb63e3201a8b"

@@ -1,0 +1,23 @@
+# List packages to add to your image one per line.
+#
+pkg-config
+pcre
+memcached
+dateutils
+# python
+py27-pip
+py27-docutils
+py27-ap24-mod_wsgi
+py27-mysql56db
+py27-SQLAlchemy
+py27-dateutil
+py27-ipaddr
+py27-ipaddress
+py27-lxml
+py27-m2crypto
+py27-memcached
+py27-dns
+# httpd
+apache
+ap24-usdt
+ap24-py27-python
