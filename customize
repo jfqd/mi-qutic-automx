@@ -46,10 +46,13 @@ sed -i \
 mkdir -p /opt/local/lib/automx
 cp automx-${AUTOMX_VERSION}/src/automx_wsgi.py /opt/local/lib/automx/
 cp automx-${AUTOMX_VERSION}/src/automx-test /opt/local/bin/automx-test
-cp -r automx-${AUTOMX_VERSION}/src/automx /opt/local/lib/python2.7
+cp -r automx-${AUTOMX_VERSION}/src/automx /opt/local/lib/python3.4
 cp -a automx-${AUTOMX_VERSION}/doc/man/ /opt/local/man
 cp automx-${AUTOMX_VERSION}/src/conf/automx.conf /opt/local/etc/
 rm -rf automx-${AUTOMX_VERSION}
+
+echo "* Enable memcached"
+svcadm enable svc:/pkgsrc/memcached:default
 
 # Clean up
 echo "* Cleaning up."

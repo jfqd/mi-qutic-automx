@@ -5,19 +5,18 @@ pcre
 memcached
 dateutils
 # python
-py27-pip
-py27-docutils
-py27-ap24-mod_wsgi
-py27-mysql56db
-py27-SQLAlchemy-i18n
-py27-dateutil
-py27-ipaddr
-py27-ipaddress
-py27-lxml
-py27-m2crypto
-py27-memcached
-py27-dns
+py34-pip
+py34-docutils
+py34-ap24-mod_wsgi
+py34-mysql-connector
+py34-SQLAlchemy-i18n
+py34-dateutil
+py34-ipaddr
+py34-ipaddress
+py34-lxml
+py34-m2crypto
+py34-memcached
+py34-dns
 # httpd
 apache
 ap24-usdt
-ap24-py27-python
