@@ -60,6 +60,9 @@ pip3.4 install m2crypto
 touch /var/log/automx.log
 chown www:www /var/log/automx.log
 
+ln -nfs /usr/bin/xxd /opt/local/bin/hexdump
+sed -i 's/hexdump -C/hexdump/' /opt/local/bin/automx-test
+
 echo "* Enable memcached"
 svcadm enable svc:/pkgsrc/memcached:default
 
