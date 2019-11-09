@@ -69,7 +69,7 @@ svcadm enable svc:/pkgsrc/memcached:default
 # Clean up
 echo "* Cleaning up."
 rm /root/customize
-pkgin -y rm gcc49
+pkgin -y rm gcc7
 
 # Prepare image for provisioning
 sm-prepare-image -y
