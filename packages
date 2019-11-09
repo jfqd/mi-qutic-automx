@@ -6,15 +6,15 @@ memcached
 dateutils
 gcc7
 # python
-py34-pip
-py34-docutils
-py34-ap24-mod_wsgi
-py34-mysql-connector
-py34-SQLAlchemy-i18n
-py34-dateutil
-py34-lxml
-py34-memcached
-py34-dns
+py36-pip
+py36-docutils
+py36-ap24-mod_wsgi
+py36-mysql-connector
+py36-SQLAlchemy-i18n
+py36-dateutil
+py36-lxml
+py36-memcached
+py36-dns
 # httpd
 apache
 ap24-usdt
