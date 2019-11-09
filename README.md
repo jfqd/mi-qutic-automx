@@ -20,8 +20,8 @@ vmadm create << EOF
 {
   "brand":      "joyent",
   "image_uuid": "$IMAGE_UUID",
-  "alias":      "mx1",
-  "hostname":   "mx1.example.com",
+  "alias":      "automx",
+  "hostname":   "automx.example.com",
   "dns_domain": "example.com",
   "resolvers": [
     "80.80.80.80",
