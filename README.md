@@ -55,3 +55,9 @@ vmadm create << EOF
 }
 EOF
 ```
+
+## links
+
+* [automx and multiple domain names](https://ww.sd.vc/wp/tag/automx/)
+* [Troubleshooting high autodiscover.xml usage](https://mediatemple.net/community/products/dv/360029281612/troubleshooting-high-autodiscover.xml-usage)
+* [How do I setup Apache to return a 204 code?](https://stackoverflow.com/questions/2733643/how-do-i-setup-apache-to-return-a-204-code#2734026)
