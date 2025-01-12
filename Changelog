@@ -1,5 +1,9 @@
 # Changelog
 
+## 20230910.0 - 2025-01-12
+* use latest base image
+* use newer python packages
+
 ## 20181018.0
 
 * Move to pkgsrc trunk
