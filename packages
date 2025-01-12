@@ -4,17 +4,18 @@ pkg-config
 pcre
 memcached
 dateutils
-gcc7
+gcc13
 # python
-py36-pip
-py36-docutils
-py36-ap24-mod_wsgi
-py36-mysql-connector
-py36-SQLAlchemy-i18n
-py36-dateutil
-py36-lxml
-py36-memcached
-py36-dns
+py312-pip
+py312-docutils
+py312-ap24-mod_wsgi
+py312-mysql-connector
+py312-SQLAlchemy-i18n
+py312-dateutil
+py312-lxml
+py312-memcached
+py312-dns
+swig4
 # httpd
 apache
 ap24-usdt
