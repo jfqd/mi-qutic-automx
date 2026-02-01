@@ -1,11 +1,11 @@
 {
   "name":         "qutic-automx",
-  "version":      "20230910.0",
+  "version":      "20240116.0",
   "description":  "qutic automx image",
   "organization": "qutic development",
   "brand":        "automx instance",
   "homepage":     "https://github.com/jfqd/mi-qutic-automx",
-  "base":         "1b5e0248-7900-11ee-9147-0b17720e6ab6",
+  "base":         "58b34c56-bbe5-11ef-a355-17294b2dd3e7",
   "customer_metadata": {
     "admin_authorized_keys": {"type": "text", "description": "SSH public authorized key(s) for the admin user"},
     "root_authorized_keys":  {"type": "text", "description": "SSH public authorized key(s) for the root user"},

@@ -1,8 +1,15 @@
 # Changelog
 
+## 20240116.0 - 2026-02-01
+
+* migrate to python 3.14
+* use latest base image
+
 ## 20230910.0 - 2025-01-12
+
 * use latest base image
 * use newer python packages
+* add setupvenv script
 
 ## 20181018.0
 
