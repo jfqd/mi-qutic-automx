@@ -46,18 +46,19 @@ sed -i \
 mkdir -p /opt/local/lib/automx
 cp automx-${AUTOMX_VERSION}/src/automx_wsgi.py /opt/local/lib/automx/
 cp automx-${AUTOMX_VERSION}/src/automx-test /opt/local/bin/automx-test
-cp -r automx-${AUTOMX_VERSION}/src/automx /opt/local/lib/python3.12
+cp -r automx-${AUTOMX_VERSION}/src/automx /opt/local/lib/python3.14
 cp -a automx-${AUTOMX_VERSION}/doc/man/ /opt/local/man
 cp automx-${AUTOMX_VERSION}/src/conf/automx.conf /opt/local/etc/
 rm -rf automx-${AUTOMX_VERSION}
 
-pip-3.12 install --upgrade pip
-pip-3.12 install mysqlclient
-pip-3.12 install ipaddr
-pip-3.12 install ipaddress
+export ENV PIP_ROOT_USER_ACTION=ignore
+pip install --upgrade pip
+# pip install mysqlclient
+pip install ipaddr
+pip install ipaddress
 
 ln -nfs /opt/local/bin/swig4.0 /opt/local/bin/swig
-pip-3.12 install m2crypto
+pip install m2crypto
 
 touch /var/log/automx.log
 chown www:www /var/log/automx.log

@@ -6,15 +6,16 @@ memcached
 dateutils
 gcc13
 # python
-py312-pip
-py312-docutils
-py312-ap24-mod_wsgi
-py312-mysql-connector
-py312-SQLAlchemy-i18n
-py312-dateutil
-py312-lxml
-py312-memcached
-py312-dns
+py314-pip
+py314-docutils
+py314-ap24-mod_wsgi
+py314-flask
+py314-mysql80client
+py314-sqlalchemy-i18n
+py314-dateutil
+py314-lxml
+py314-memcached
+py314-dns
 swig4
 # httpd
 apache

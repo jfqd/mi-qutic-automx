@@ -15,4 +15,4 @@ python3 -m venv "${dir}"
 source "${dir}/bin/activate"
 
 set +e
-pip-3.12 install -U pip setuptools wheel || true
+pip install -U pip setuptools wheel || true
